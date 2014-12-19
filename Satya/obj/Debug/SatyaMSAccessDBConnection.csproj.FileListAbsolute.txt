@@ -1,0 +1,5 @@
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\bin\Debug\SatyaMSAccessDBConnection.dll
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\bin\Debug\SatyaMSAccessDBConnection.pdb
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Debug\SatyaMSAccessDBConnection.dll
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Debug\SatyaMSAccessDBConnection.pdb

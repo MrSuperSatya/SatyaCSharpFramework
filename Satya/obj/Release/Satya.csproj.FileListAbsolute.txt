@@ -1,0 +1,17 @@
+D:\Projects\SatyaDb\SatyaMSAccessDBConnection\bin\Release\Satya.dll
+D:\Projects\SatyaDb\SatyaMSAccessDBConnection\bin\Release\Satya.pdb
+D:\Projects\SatyaDb\SatyaMSAccessDBConnection\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\SatyaDb\SatyaMSAccessDBConnection\obj\Release\Satya.dll
+D:\Projects\SatyaDb\SatyaMSAccessDBConnection\obj\Release\Satya.pdb
+D:\Projects\SatyaDb\Satya\bin\Release\Satya.dll
+D:\Projects\SatyaDb\Satya\bin\Release\Satya.pdb
+D:\Projects\SatyaDb\Satya\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\SatyaDb\Satya\obj\Release\Satya.dll
+D:\Projects\SatyaDb\Satya\obj\Release\Satya.pdb
+D:\Projects\Satya C# Library\Satya\bin\Release\Satya.dll
+D:\Projects\Satya C# Library\Satya\bin\Release\Satya.pdb
+D:\Projects\Satya C# Library\Satya\obj\Release\Satya.SatInputBox.resources
+D:\Projects\Satya C# Library\Satya\obj\Release\Satya.csproj.GenerateResource.Cache
+D:\Projects\Satya C# Library\Satya\obj\Release\Satya.dll
+D:\Projects\Satya C# Library\Satya\obj\Release\Satya.pdb
+D:\Projects\Satya C# Library\Satya\obj\Release\Satya.Properties.Resources.resources

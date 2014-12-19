@@ -1,0 +1,10 @@
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\bin\Release\SatyaMSAccessDBConnection.dll
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\bin\Release\SatyaMSAccessDBConnection.pdb
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Release\ResolveAssemblyReference.cache
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Release\SatyaMSAccessDBConnection.dll
+D:\Project\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Release\SatyaMSAccessDBConnection.pdb
+D:\Projects\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\bin\Release\SatyaMSAccessDBConnection.dll
+D:\Projects\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\bin\Release\SatyaMSAccessDBConnection.pdb
+D:\Projects\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Release\ResolveAssemblyReference.cache
+D:\Projects\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Release\SatyaMSAccessDBConnection.dll
+D:\Projects\SatyaMSAccessDBConnection\SatyaMSAccessDBConnection\obj\Release\SatyaMSAccessDBConnection.pdb
