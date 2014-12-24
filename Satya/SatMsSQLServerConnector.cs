@@ -19,11 +19,12 @@ namespace Satya
         Picture
 	}
 
-	[Obsolete("This class is deprecated, please use 'SatMsSqlServerConnector2' instead")]
 	public class SatMsSQLServerConnector : Object, SatIDBConnector
 	{
 		protected SqlConnection connection;		
 		protected string sql;
+        protected List<string> queryParaNames = new List<string>();
+        protected List<string> queryParaValues = new List<string>();
 
 		public SqlConnection Connection
 		{
@@ -31,13 +32,12 @@ namespace Satya
 			set { connection = value; }
 		}		
 		
-        /// <param name="connectionString"> Sql Server Connection String OR Database Name</param>
-		public SatMsSQLServerConnector(string connectionString)
+        public SatMsSQLServerConnector(string connectionString)
 		{
 			connection = new SqlConnection();
 			openConnection(connectionString);
 		}
-		public SatMsSQLServerConnector(string serverName, string databaseName) //serverName = USER-PC06, databaseName = SoCafe
+		public SatMsSQLServerConnector(string serverName, string databaseName) 
 		{
 			connection = new SqlConnection();
 			string connectionString = "Data Source=" + serverName +
@@ -47,7 +47,6 @@ namespace Satya
 			openConnection(connectionString);
 		}
                 
-        /// <param name="connectionString"> Sql Server Connection String</param>
         public bool openConnection(string connectionString)
 		{
             connection.ConnectionString = connectionString;
@@ -185,7 +184,8 @@ namespace Satya
 			if (sql.StartsWith("Insert"))
 			{
 				validateString(ref fieldValue, dataType);
-				sql += (fieldValue + ",");
+                sql += ("@" + (queryParaValues.Count).ToString() + ",");
+                queryParaValues.Add(fieldValue);
 			}
 		}
         [Obsolete("Deprecated: Use 'insertEnd' instead")]
@@ -195,6 +195,9 @@ namespace Satya
 			{
 				sql = sql.Substring(0, sql.Length - 1);
 				sql += ")";
+                SqlCommand com = new SqlCommand(sql, connection);
+
+
 				return executeNonQuery(sql);
 			}
 			sql = "";
