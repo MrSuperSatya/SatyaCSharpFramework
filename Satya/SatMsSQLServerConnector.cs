@@ -23,8 +23,7 @@ namespace Satya
 	{
 		protected SqlConnection connection;		
 		protected string sql;
-        protected List<string> queryParaNames = new List<string>();
-        protected List<string> queryParaValues = new List<string>();
+        protected List<string> queryParas = new List<string>();
 
 		public SqlConnection Connection
 		{
@@ -184,8 +183,8 @@ namespace Satya
 			if (sql.StartsWith("Insert"))
 			{
 				validateString(ref fieldValue, dataType);
-                sql += ("@" + (queryParaValues.Count).ToString() + ",");
-                queryParaValues.Add(fieldValue);
+                sql += ("@para" + (queryParas.Count).ToString() + ",");
+                queryParas.Add(fieldValue);
 			}
 		}
         [Obsolete("Deprecated: Use 'insertEnd' instead")]
@@ -196,9 +195,10 @@ namespace Satya
 				sql = sql.Substring(0, sql.Length - 1);
 				sql += ")";
                 SqlCommand com = new SqlCommand(sql, connection);
+                for (int i=0;i<com.Parameters.Count;i++)
+                    com.Parameters["para" + i.ToString()].Value = queryParas[i];
 
-
-				return executeNonQuery(sql);
+                return com.ExecuteNonQuery();
 			}
 			sql = "";
             return -1;
