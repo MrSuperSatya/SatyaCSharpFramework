@@ -11,8 +11,8 @@ namespace Satya
 {
 	public class SatMsAccessConnector : SatIDBConnector
 	{
-		private OleDbConnection connection;
-		private string sql;
+		protected OleDbConnection connection;
+		protected string sql;
 
 		public OleDbConnection Connection
 		{
