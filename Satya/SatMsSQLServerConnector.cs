@@ -10,7 +10,7 @@ using System.Data.SqlClient;
 
 namespace Satya
 {
-    //use for string validate only
+    // Use for string validation
 	public enum DBDataType 
 	{
         String,
