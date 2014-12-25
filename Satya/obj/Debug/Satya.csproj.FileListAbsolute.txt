@@ -4,3 +4,11 @@ D:\Projects\Satya C# Library\Satya\obj\Debug\Satya.SatInputBox.resources
 D:\Projects\Satya C# Library\Satya\obj\Debug\Satya.csproj.GenerateResource.Cache
 D:\Projects\Satya C# Library\Satya\obj\Debug\Satya.dll
 D:\Projects\Satya C# Library\Satya\obj\Debug\Satya.pdb
+D:\Projects\SatyaCSharpFramework\Satya\bin\Debug\Satya.dll
+D:\Projects\SatyaCSharpFramework\Satya\bin\Debug\Satya.pdb
+D:\Projects\SatyaCSharpFramework\Satya\obj\Debug\Satya.csprojResolveAssemblyReference.cache
+D:\Projects\SatyaCSharpFramework\Satya\obj\Debug\Satya.Properties.Resources.resources
+D:\Projects\SatyaCSharpFramework\Satya\obj\Debug\Satya.SatInputBox.resources
+D:\Projects\SatyaCSharpFramework\Satya\obj\Debug\Satya.csproj.GenerateResource.Cache
+D:\Projects\SatyaCSharpFramework\Satya\obj\Debug\Satya.dll
+D:\Projects\SatyaCSharpFramework\Satya\obj\Debug\Satya.pdb
